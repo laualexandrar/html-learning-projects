@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/tailwind.css">
+    <title>Travel Blog</title>
+</head>
+<body class="font-Monserrat">
+    <nav></nav>
+    <div id="tab-bar"></div>
+    <section class="w-full h-screen">
+        <div id="home">
+            <div class="w-full h-3/4">
+                <div class="w-full h-full flex flex-col absolute space-y-96 py-4 items-center">
+                    <input class="outline-none p-3 rounded-full shadow-sm transition duration-300 focus-within:shadow-sm focus:ring-2 focus:w-11/12" placeholder="San Francisco" type="search" name="" id="">
+                    <button class="w-48 rounded-full text-lg text-primary shadow-sm font-semibold p-4 bg-white transition transition-all duration-500 ease-in-out hover: bg-primary hover: text-white transform hover: -translate-y-1 hover:scale-110">
+                        Explorar
+                    </button>
+                </div>
+                <div class="w-full h-full">
+                    <img src="./img/sanFrancisco.jpeg" alt="">
+                </div>
+            </div>
+            
+        </div>
+        <div class="p-6" id="recomendados">
+            <p class="text-3xl font-semibold text-primary">Recomendados</p>
+            <div class="w-auto h-72 items-center mt-6 overflow-x-auto overscroll-x-contain flex space-x-4 overflow-y-hidden">
+                <div class="Card"> 
+                    <div class="w-full h-3/5 rounded-t-lg bg-norway bg-cover"></div>
+                    <div class="w-full h-2/5 bg-secondary rounded-b-lg">
+                        <p class="text-white text-bold text-xl">Norway</p>
+                        <p class="text-white text-md px-4">Beautiful landscapes</p>
+                    </div>
+                </div>
+                <div class="Card"> 
+                    <div class="w-full h-3/5 rounded-t-lg bg-new_york bg-cover"></div>
+                    <div class="w-full h-2/5 bg-white rounded-b-lg">
+                        <p class="text-tertiary text-bold text-xl">New York</p>
+                        <p class="text-tertiary text-md px-4">The grand apple</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="px-6 h-full w-full" id="rentas_destacadas">
+            <p class="text-3xl text-primary font-semibold pb-6">Rentas Destacadas</p>
+            <div>
+                <div class="w-full h-96 bg-red-200 bg-chicago bg-cover rounded-lg">
+                    <p>Chicago</p>
+                    <p>2 rooms, bathroom and kitchen</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+</body>
+</html>
